@@ -9,15 +9,45 @@
 h1 {
     font-size: 60px;
     text-align: center;
+    border: 1px white;
 
 }
 
 ul.main-list {
 
-    text-align: center;
-    list-style-position: inside;
+    padding: 20px;
+    background-color: white;
+    margin: 0px 40px;
+    font-size: 20px;
 
 }
+
+.main-list li {
+
+    background-color: white;
+    color: black;
+    margin: 30px;
+    list-style: none;
+    text-align: center;
+
+}
+
+.main-list li a{
+
+    background-color: white;
+    color: black;
+
+
+}
+
+.main-list li a:hover{
+
+    background-color: black;
+    color: white;
+
+
+}
+
 
 img {
 
